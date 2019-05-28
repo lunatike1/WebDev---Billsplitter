@@ -1,0 +1,304 @@
+body {
+  position: absolute;
+  top:20%;
+  left:35%;
+  background-color: #80d4ff;
+}
+
+#body2 {
+  position: absolute;
+  top:20%;
+  left:20%;
+  background-color: #80d4ff;
+}
+
+#box {
+  background: #99ddff;
+  padding: 50px 50px 50px 50px;
+  box-shadow: 10px 10px #66ccff;
+  font-family: Courier, monospace;
+  letter-spacing: 6px;
+  text-align: center;
+}
+
+
+h1 {
+  font-family: Courier, monospace;
+  font-size: 38px;
+  letter-spacing: 9px;
+  color: white;
+}
+
+h2 {
+  font-family: Courier, monospace;
+  font-size: 30px;
+  letter-spacing: 9px;
+  color: white;
+}
+
+h3 {
+  font-family: Courier, monospace;
+  letter-spacing: 6px;
+  color: white;
+  text-align: center;
+}
+
+input {
+  border: none;
+  border-bottom: 2px solid white;
+  margin: 4px 2px;
+  background-color:#99ddff;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: Courier, monospace;
+  font-size: 16px;
+}
+
+select {
+  background-color: #ffffff;
+  padding: 4px 6px;
+  border: none;
+  border-radius: 4px;
+  color: #80d4ff;
+  font-weight: bold;
+}
+
+#newuser {
+  float: right;
+  margin: -33px 100px;
+  background-color: #80d4ff;
+  font-family: Courier, monospace;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 13px;
+}
+
+#Deleteuser {
+  float: right;
+  margin: -10px 53px;
+  background-color: #80d4ff;
+  font-family: Courier, monospace;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 13px;
+}
+
+#send {
+  background-color: #80d4ff;
+  padding: 8px 40px 8px 40px;
+  position: relative;
+  top:20px;
+  font-family: Courier, monospace;
+  text-decoration: none;
+  color:  white;
+  font-weight: bold;
+  border-bottom: none;
+}
+
+#paid {
+  background-color: #80d4ff;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-family: Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#onebill {
+  border: none;
+
+  margin: 4px 2px;
+  background-color:#99ddff;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: Courier, monospace;
+  font-size: 16px;
+}
+
+#status {
+  background-color: #80d4ff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-family: Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+#login {
+  background-color: #80d4ff;
+  padding: 8px 40px 8px 40px;
+  font-family: Courier, monospace;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+#login2 {
+  background-color: #80d4ff;
+  padding: 8px 40px 8px 40px;
+  position: relative;
+  top:20px;
+  font-family: Courier, monospace;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+#signup {
+  background-color: #80d4ff;
+  padding: 8px 40px 8px 40px;
+  margin-left: 10px;
+  font-family: Courier, monospace;
+  text-decoration: none;
+  color:  white;
+  font-weight: bold;
+}
+
+#signup2 {
+  background-color: #80d4ff;
+  padding: 8px 40px 8px 40px;
+  position: relative;
+  top:20px;
+  font-family: Courier, monospace;
+  text-decoration: none;
+  color:  white;
+  font-weight: bold;
+}
+
+
+
+#Profile {
+  background: #99ddff;
+  padding: 8px 20px 8px 20px;
+  font-family: Courier, monospace;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  position: fixed;
+  top:2%;
+  left:80%;
+}
+
+#Logout {
+  background: #99ddff;
+  padding: 8px 20px 8px 20px;
+  font-family: Courier, monospace;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  position: fixed;
+  top:2%;
+  left:90%;
+}
+
+#Back {
+  background: #99ddff;
+  padding: 8px 20px 8px 20px;
+  font-family: Courier, monospace;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  position: fixed;
+  top:2%;
+  left:5%;
+}
+
+#NewBill {
+  background: #99ddff;
+  padding: 8px 20px 8px 20px;
+  font-family: Courier, monospace;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  position: fixed;
+  top:2%;
+  left:5%;
+}
+
+#MyBills {
+  background: #99ddff;
+  padding: 8px 20px 8px 20px;
+  font-family: Courier, monospace;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  position: fixed;
+  top:2%;
+  left:15%;
+}
+
+#Received {
+  background: #99ddff;
+  padding: 8px 20px 8px 20px;
+  font-family: Courier, monospace;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  position: fixed;
+  top:2%;
+  left:25%;
+}
+
+#billbox {
+  position: fixed;
+  top:30%;
+  left:25%;
+  background: #99ddff;
+  box-sizing: border-box;
+  width: 50%;
+  height: 35%;
+  padding: 20px 40px 20px 40px;
+  box-shadow: 10px 10px #66ccff;
+  font-family: Courier, monospace;
+  letter-spacing: 6px;
+  text-align: left;
+  line-height: 200%;
+
+}
+
+
+label {
+  border: none;
+  border-bottom: 2px solid white;
+  color: #a2a5a5;
+  font-weight: bold;
+  font-family: Courier, monospace;
+  font-size: 17px;
+}
+
+#bills {
+  background-color: #80d4ff;
+  padding: 8px 15px;
+  text-align: left;
+  position: static;
+  line-height: 300%;
+  font-family: Courier, monospace;
+  text-decoration: none;
+  color:white;
+  font-weight: bold;
+  border-bottom: none;
+}
+
+span {
+  background: white;
+  padding: 3px 7px;
+}
